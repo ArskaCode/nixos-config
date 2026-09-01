@@ -8,6 +8,7 @@ in
     helix-pkgs.helix
     pkgs.git
     pkgs.jujutsu
+    pkgs.ripgrep
 
     pkgs.nixd
 
