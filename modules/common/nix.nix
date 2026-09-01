@@ -1,3 +1,6 @@
 { pkgs, ... }: {
-  config.nix.package = pkgs.nixVersions.latest;
+  nix = {
+    package = pkgs.nixVersions.latest;
+    settings.experimental-features = [ "nix-command" "flakes" ];
+  };
 }
