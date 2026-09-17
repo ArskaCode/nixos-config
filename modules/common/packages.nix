@@ -12,6 +12,8 @@ in
 
     pkgs.nixd
 
+    pkgs.libqalculate
+
     pkgs.codex
     pkgs.claude-code
   ];
