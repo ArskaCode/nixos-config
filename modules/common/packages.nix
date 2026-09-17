@@ -10,6 +10,7 @@ in
     pkgs.jujutsu
     pkgs.ripgrep
 
+    pkgs.nix-output-monitor
     pkgs.nixd
 
     pkgs.libqalculate
